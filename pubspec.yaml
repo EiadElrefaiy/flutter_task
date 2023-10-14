@@ -1,0 +1,685 @@
+name: myapp
+description: A exported flutter project from FUNCTION12
+
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  google_fonts: ^3.0.1
+  flutter_custom_clippers: ^2.1.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/page-1/images/images.png
+    - assets/page-1/images/image-removebg-preview (2).png
+    - assets/page-1/images/image-removebg-preview.png
+    - assets/page-1/images/download-removebg-preview (1).png
+    - assets/page-1/images/download-removebg-preview.png
+    - assets/page-1/images/our-team-4-1-34z7503y7iaa19p3j6k07e@2x.jpg
+    - assets/page-1/images/image-19.png
+    - assets/page-1/images/unsplash-cjyqbskdsii-bg.png
+    - assets/page-1/images/background-primary-bg.png
+    - assets/page-1/images/ellipse-800.png
+    - assets/page-1/images/facebook.png
+    - assets/page-1/images/ellipse-801-XRH.png
+    - assets/page-1/images/starpurple500-5.png
+    - assets/page-1/images/ellipse-801.png
+    - assets/page-1/images/frame-29800.png
+    - assets/page-1/images/background-primary-bg-WhV.png
+    - assets/page-1/images/ellipse-800-EG7.png
+    - assets/page-1/images/status-bar-iphone-x-or-newer.png
+    - assets/page-1/images/playcirclefilled-1.png
+    - assets/page-1/images/frame-29800-7Dy.png
+    - assets/page-1/images/starpurple500-1.png
+    - assets/page-1/images/starpurple500-7.png
+    - assets/page-1/images/ico-24-actions-search.png
+    - assets/page-1/images/starpurple500-1-t2K.png
+    - assets/page-1/images/playcirclefilled-1-pwZ.png
+    - assets/page-1/images/starpurple500-5-RZy.png
+    - assets/page-1/images/ellipse-800-bm9.png
+    - assets/page-1/images/starborder-1.png
+    - assets/page-1/images/group-29779.png
+    - assets/page-1/images/starpurple500-7-8bH.png
+    - assets/page-1/images/starpurple500-7-qkb.png
+    - assets/page-1/images/background-primary-bg-sKm.png
+    - assets/page-1/images/ellipse-801-CYw.png
+    - assets/page-1/images/unsplash-4mrqv9gcuhq-bg.png
+    - assets/page-1/images/playcirclefilled-1-fYK.png
+    - assets/page-1/images/unsplash-cjyqbskdsii-bg-wuR.png
+    - assets/page-1/images/flat-color-icons-google.png
+    - assets/page-1/images/frame-29800-B1h.png
+    - assets/page-1/images/starpurple500-5-2Eb.png
+    - assets/page-1/images/.png
+    - assets/page-1/images/ellipse-801-CJj.png
+    - assets/page-1/images/ellipse-801-HqH.png
+    - assets/page-1/images/group-29782.png
+    - assets/page-1/images/group-29779-fxK.png
+    - assets/page-1/images/starpurple500-7-hR1.png
+    - assets/page-1/images/ellipse-800-EU7.png
+    - assets/page-1/images/background-primary-bg-mQ3.png
+    - assets/page-1/images/group-29779-xqD.png
+    - assets/page-1/images/group-29779-hQj.png
+    - assets/page-1/images/background-primary-bg-Gg7.png
+    - assets/page-1/images/group-29779-22K.png
+    - assets/page-1/images/delete.png
+    - assets/page-1/images/frame-29800-CzK.png
+    - assets/page-1/images/ellipse-800-1Zh.png
+    - assets/page-1/images/starpurple500-5-TJX.png
+    - assets/page-1/images/flagofegypt-2.png
+    - assets/page-1/images/status-bar-iphone-x-or-newer-Vpb.png
+    - assets/page-1/images/starpurple500-6.png
+    - assets/page-1/images/starpurple500-6-7tT.png
+    - assets/page-1/images/home.png
+    - assets/page-1/images/unsplash-cjyqbskdsii-bg-s4s.png
+    - assets/page-1/images/background-primary-bg-etF.png
+    - assets/page-1/images/frame-29800-TPd.png
+    - assets/page-1/images/rectangle-21.png
+    - assets/page-1/images/group-29779-vU7.png
+    - assets/page-1/images/group-29779-DPu.png
+    - assets/page-1/images/frame-29800-B59.png
+    - assets/page-1/images/ellipse-800-PU3.png
+    - assets/page-1/images/status-bar-iphone-x-or-newer-Lj9.png
+    - assets/page-1/images/flat-color-icons-google-8Sb.png
+    - assets/page-1/images/arrowbackios-4.png
+    - assets/page-1/images/starpurple500-7-QKZ.png
+    - assets/page-1/images/ellipse-800-D43.png
+    - assets/page-1/images/starpurple500-6-5dy.png
+    - assets/page-1/images/unsplash-4mrqv9gcuhq-bg-QJB.png
+    - assets/page-1/images/ellipse-800-qaF.png
+    - assets/page-1/images/background-primary-bg-Jhu.png
+    - assets/page-1/images/frame-29800-mUj.png
+    - assets/page-1/images/frame-29800-dDR.png
+    - assets/page-1/images/flagofegypt-2-X5q.png
+    - assets/page-1/images/starborder-1-WoZ.png
+    - assets/page-1/images/image-19-bbM.png
+    - assets/page-1/images/group-29794.png
+    - assets/page-1/images/-mHy.png
+    - assets/page-1/images/group-29779-BRZ.png
+    - assets/page-1/images/frame-29800-ae3.png
+    - assets/page-1/images/ellipse-800-ot3.png
+    - assets/page-1/images/auto-group-xzk7.png
+    - assets/page-1/images/ellipse-801-csq.png
+    - assets/page-1/images/frame-29800-A8f.png
+    - assets/page-1/images/frame-29800-dn7.png
+    - assets/page-1/images/frame-29800-dQj.png
+    - assets/page-1/images/group-7113.png
+    - assets/page-1/images/frame-29800-Nt7.png
+    - assets/page-1/images/frame-29800-pvb.png
+    - assets/page-1/images/starpurple500-6-Gw1.png
+    - assets/page-1/images/image-18.png
+    - assets/page-1/images/frame-7109.png
+    - assets/page-1/images/frame-29800-MZR.png
+    - assets/page-1/images/starborder-1-ZL3.png
+    - assets/page-1/images/keyboardarrowdown-1.png
+    - assets/page-1/images/starpurple500-5-hgT.png
+    - assets/page-1/images/rectangle-21-1EX.png
+    - assets/page-1/images/ico-24-alerts-notifications.png
+    - assets/page-1/images/group-29779-1Qs.png
+    - assets/page-1/images/starpurple500-5-czK.png
+    - assets/page-1/images/starborder-1-ZHh.png
+    - assets/page-1/images/starpurple500-6-HjV.png
+    - assets/page-1/images/status-bar-iphone-x-or-newer-2wy.png
+    - assets/page-1/images/starpurple500-1-6wq.png
+    - assets/page-1/images/group-7113-TXV.png
+    - assets/page-1/images/group-29779-yEw.png
+    - assets/page-1/images/facebook-87q.png
+    - assets/page-1/images/group-29793.png
+    - assets/page-1/images/frame-29800-95y.png
+    - assets/page-1/images/frame-29800-byZ.png
+    - assets/page-1/images/ellipse-801-kLf.png
+    - assets/page-1/images/group-29779-ZhR.png
+    - assets/page-1/images/userbig.png
+    - assets/page-1/images/background-primary-bg-SPy.png
+    - assets/page-1/images/image-19-BTm.png
+    - assets/page-1/images/ellipse-801-wVH.png
+    - assets/page-1/images/group-29779-GDu.png
+    - assets/page-1/images/frame-29800-ueo.png
+    - assets/page-1/images/ellipse-801-RkK.png
+    - assets/page-1/images/rectangle-7-bg.png
+    - assets/page-1/images/starpurple500-1-UnK.png
+    - assets/page-1/images/ellipse-801-4QP.png
+    - assets/page-1/images/frame-29800-Qsh.png
+    - assets/page-1/images/background-primary-bg-8co.png
+    - assets/page-1/images/starborder-1-fcj.png
+    - assets/page-1/images/frame-29800-d3m.png
+    - assets/page-1/images/rectangle-1006-bg.png
+    - assets/page-1/images/ellipse-800-Szj.png
+    - assets/page-1/images/frame-29800-noh.png
+    - assets/page-1/images/frame-29800-Yns.png
+    - assets/page-1/images/ellipse-801-JX9.png
+    - assets/page-1/images/ellipse-801-sKM.png
+    - assets/page-1/images/starpurple500-7-pEb.png
+    - assets/page-1/images/ellipse-800-BL3.png
+    - assets/page-1/images/ellipse-800-wa7.png
+    - assets/page-1/images/rectangle-1006-bg-VgT.png
+    - assets/page-1/images/unsplash-4mrqv9gcuhq-bg-1Kd.png
+    - assets/page-1/images/starborder-1-hpb.png
+    - assets/page-1/images/starpurple500-1-SXH.png
+    - assets/page-1/images/starpurple500-6-Ces.png
+    - assets/page-1/images/ellipse-800-9q1.png
+    - assets/page-1/images/auto-group-vnvd.png
+    - assets/page-1/images/group-29779-HaP.png
+    - assets/page-1/images/frame-29800-2ns.png
+    - assets/page-1/images/frame-29800-bLB.png
+    - assets/page-1/images/frame-29800-ZH1.png
+    - assets/page-1/images/starpurple500-1-7pK.png
+    - assets/page-1/images/image-19-XNo.png
+    - assets/page-1/images/image-18-GuM.png
+    - assets/page-1/images/image-18-miF.png
+    - assets/page-1/images/image-18-bts.png
+    - assets/page-1/images/image-18-f7M.png
+    - assets/page-1/images/ellipse-800-Cxo.png
+    - assets/page-1/images/rectangle-1006-bg-cGo.png
+    - assets/page-1/images/image-19-Tbu.png
+    - assets/page-1/images/starborder-1-Jo9.png
+    - assets/page-1/images/group-29794-xPq.png
+    - assets/page-1/images/ellipse-801-3jd.png
+    - assets/page-1/images/rectangle-1006-bg-Nsy.png
+    - assets/page-1/images/rectangle-1006-bg-y6P.png
+    - assets/page-1/images/frame-29800-ifq.png
+    - assets/page-1/images/rectangle-1006-bg-Dp3.png
+    - assets/page-1/images/rectangle-1006-bg-9GB.png
+    - assets/page-1/images/keyboardarrowdown-1-vAj.png
+    - assets/page-1/images/rectangle-1006-bg-abR.png
+    - assets/page-1/images/auto-group-4pn7.png
+    - assets/page-1/images/starpurple500-5-QDm.png
+    - assets/page-1/images/rectangle-1006-bg-fJ7.png
+    - assets/page-1/images/starpurple500-7-oD1.png
+    - assets/page-1/images/group-29779-VNf.png
+    - assets/page-1/images/starpurple500-7-V2P.png
+    - assets/page-1/images/rectangle-1006-bg-5cj.png
+    - assets/page-1/images/frame-29800-tRM.png
+    - assets/page-1/images/frame-29800-ahV.png
+    - assets/page-1/images/ellipse-800-CHM.png
+    - assets/page-1/images/starpurple500-7-GbH.png
+    - assets/page-1/images/starpurple500-1-cuu.png
+    - assets/page-1/images/image-18-37u.png
+    - assets/page-1/images/ellipse-800-391.png
+    - assets/page-1/images/ellipse-801-4iB.png
+    - assets/page-1/images/ellipse-801-Vrf.png
+    - assets/page-1/images/rectangle-1006-bg-oDR.png
+    - assets/page-1/images/ellipse-800-Etw.png
+    - assets/page-1/images/ellipse-801-nX1.png
+    - assets/page-1/images/frame-29800-6bZ.png
+    - assets/page-1/images/starborder-1-tBH.png
+    - assets/page-1/images/group-29779-8Mm.png
+    - assets/page-1/images/group-29779-27h.png
+    - assets/page-1/images/group-29779-fxj.png
+    - assets/page-1/images/ico-24-alerts-notifications-gCo.png
+    - assets/page-1/images/group-29779-ysM.png
+    - assets/page-1/images/ellipse-800-XFu.png
+    - assets/page-1/images/ellipse-801-c1M.png
+    - assets/page-1/images/starpurple500-6-aKZ.png
+    - assets/page-1/images/starpurple500-5-DnP.png
+    - assets/page-1/images/frame-29800-Xjd.png
+    - assets/page-1/images/frame-29800-uXD.png
+    - assets/page-1/images/starpurple500-6-dMq.png
+    - assets/page-1/images/starpurple500-5-eaK.png
+    - assets/page-1/images/starborder-1-biP.png
+    - assets/page-1/images/frame-29800-Hyq.png
+    - assets/page-1/images/frame-29800-zS3.png
+    - assets/page-1/images/frame-29800-dcs.png
+    - assets/page-1/images/starpurple500-1-KTd.png
+    - assets/page-1/images/frame-29800-UAj.png
+    - assets/page-1/images/ellipse-800-g1m.png
+    - assets/page-1/images/ellipse-800-JYo.png
+    - assets/page-1/images/rectangle-1006-bg-GqV.png
+    - assets/page-1/images/starpurple500-5-BGb.png
+    - assets/page-1/images/frame-29800-hHR.png
+    - assets/page-1/images/group-29779-zaK.png
+    - assets/page-1/images/status-bar-iphone-x-or-newer-gT9.png
+    - assets/page-1/images/frame-29800-WBH.png
+    - assets/page-1/images/userbig-faX.png
+    - assets/page-1/images/frame-29800-WHV.png
+    - assets/page-1/images/ellipse-801-VQ3.png
+    - assets/page-1/images/starborder-1-pyM.png
+    - assets/page-1/images/group-29779-KJX.png
+    - assets/page-1/images/ellipse-800-nBy.png
+    - assets/page-1/images/frame-29800-hUK.png
+    - assets/page-1/images/ellipse-801-9SX.png
+    - assets/page-1/images/frame-29800-qqy.png
+    - assets/page-1/images/starpurple500-6-sC3.png
+    - assets/page-1/images/frame-29800-uc3.png
+    - assets/page-1/images/frame-29800-CD5.png
+    - assets/page-1/images/frame-29800-4dD.png
+    - assets/page-1/images/starpurple500-6-DPV.png
+    - assets/page-1/images/group-29779-3dy.png
+    - assets/page-1/images/frame-29800-WUX.png
+    - assets/page-1/images/group-29779-vPR.png
+    - assets/page-1/images/group-29793-Egw.png
+    - assets/page-1/images/ellipse-801-d35.png
+    - assets/page-1/images/ico-24-actions-search-Vuh.png
+    - assets/page-1/images/ellipse-801-7Ku.png
+    - assets/page-1/images/starpurple500-7-vzb.png
+    - assets/page-1/images/group-29779-eL7.png
+    - assets/page-1/images/ellipse-800-w2o.png
+    - assets/page-1/images/starpurple500-7-H4b.png
+    - assets/page-1/images/group-29779-kLo.png
+    - assets/page-1/images/rectangle-21-64w.png
+    - assets/page-1/images/frame-29800-rBR.png
+    - assets/page-1/images/starpurple500-1-HVR.png
+    - assets/page-1/images/frame-29800-XFm.png
+    - assets/page-1/images/starpurple500-6-rYw.png
+    - assets/page-1/images/frame-29800-Zjm.png
+    - assets/page-1/images/group-29782-1HZ.png
+    - assets/page-1/images/starpurple500-1-1Bd.png
+    - assets/page-1/images/ellipse-801-ohR.png
+    - assets/page-1/images/group-29779-GSB.png
+    - assets/page-1/images/ellipse-800-MX5.png
+    - assets/page-1/images/ellipse-800-xZu.png
+    - assets/page-1/images/ellipse-801-sgb.png
+    - assets/page-1/images/rectangle-1006-bg-dqH.png
+    - assets/page-1/images/rectangle-1006-bg-JVd.png
+    - assets/page-1/images/rectangle-1006-bg-EyV.png
+    - assets/page-1/images/rectangle-1006-bg-XLs.png
+    - assets/page-1/images/rectangle-1006-bg-SrT.png
+    - assets/page-1/images/starborder-1-QFy.png
+    - assets/page-1/images/frame-29800-ABq.png
+    - assets/page-1/images/rectangle-1006-bg-3k3.png
+    - assets/page-1/images/home-sbD.png
+    - assets/page-1/images/frame-29800-J9D.png
+    - assets/page-1/images/image-18-W71.png
+    - assets/page-1/images/starpurple500-5-zNK.png
+    - assets/page-1/images/frame-29800-RBd.png
+    - assets/page-1/images/starpurple500-1-shH.png
+    - assets/page-1/images/ellipse-801-NP1.png
+    - assets/page-1/images/starpurple500-7-Ku1.png
+    - assets/page-1/images/group-29779-1m1.png
+    - assets/page-1/images/ellipse-800-yhh.png
+    - assets/page-1/images/ellipse-800-YEs.png
+    - assets/page-1/images/addcircle-1.png
+    - assets/page-1/images/starpurple500-1-VSP.png
+    - assets/page-1/images/rectangle-1006-bg-bc3.png
+    - assets/page-1/images/rectangle-1006-bg-TXd.png
+    - assets/page-1/images/starpurple500-7-SH5.png
+    - assets/page-1/images/rectangle-1006-bg-pGF.png
+    - assets/page-1/images/rectangle-1006-bg-519.png
+    - assets/page-1/images/rectangle-1006-bg-3FM.png
+    - assets/page-1/images/starpurple500-1-Jgw.png
+    - assets/page-1/images/rectangle-1006-bg-xHM.png
+    - assets/page-1/images/arrowbackios-4-ntF.png
+    - assets/page-1/images/ellipse-800-t2B.png
+    - assets/page-1/images/starpurple500-5-QJb.png
+    - assets/page-1/images/addcircle-1-TJP.png
+    - assets/page-1/images/starpurple500-1-kSs.png
+    - assets/page-1/images/starpurple500-7-uvX.png
+    - assets/page-1/images/rectangle-1010-bg.png
+    - assets/page-1/images/status-bar-iphone-x-or-newer-1tB.png
+    - assets/page-1/images/starpurple500-5-nz3.png
+    - assets/page-1/images/starpurple500-5-aJs.png
+    - assets/page-1/images/starpurple500-6-qju.png
+    - assets/page-1/images/addcircle-1-8U7.png
+    - assets/page-1/images/starpurple500-5-etw.png
+    - assets/page-1/images/starborder-1-T6F.png
+    - assets/page-1/images/addcircle-1-yKV.png
+    - assets/page-1/images/rectangle-21-KUT.png
+    - assets/page-1/images/addcircle-1-Vh1.png
+    - assets/page-1/images/ellipse-800-NgX.png
+    - assets/page-1/images/group-29779-mfM.png
+    - assets/page-1/images/ellipse-800-TYB.png
+    - assets/page-1/images/addcircle-1-1pb.png
+    - assets/page-1/images/starpurple500-6-ddy.png
+    - assets/page-1/images/starborder-1-uLb.png
+    - assets/page-1/images/starborder-1-4HM.png
+    - assets/page-1/images/starborder-1-p7y.png
+    - assets/page-1/images/starpurple500-1-6Wj.png
+    - assets/page-1/images/starpurple500-1-WXh.png
+    - assets/page-1/images/starpurple500-6-nvT.png
+    - assets/page-1/images/ellipse-800-9wu.png
+    - assets/page-1/images/starpurple500-6-cUf.png
+    - assets/page-1/images/group-29779-RsM.png
+    - assets/page-1/images/starpurple500-6-vTH.png
+    - assets/page-1/images/starborder-1-irs.png
+    - assets/page-1/images/starpurple500-1-TpT.png
+    - assets/page-1/images/ellipse-800-iqV.png
+    - assets/page-1/images/starpurple500-7-Zgs.png
+    - assets/page-1/images/starpurple500-6-BR9.png
+    - assets/page-1/images/ellipse-800-1fd.png
+    - assets/page-1/images/starpurple500-7-9LT.png
+    - assets/page-1/images/starpurple500-1-6Fh.png
+    - assets/page-1/images/starpurple500-7-YnT.png
+    - assets/page-1/images/starpurple500-5-gNs.png
+    - assets/page-1/images/group-29779-r6K.png
+    - assets/page-1/images/starpurple500-5-qJw.png
+    - assets/page-1/images/starpurple500-6-CDM.png
+    - assets/page-1/images/group-29779-Sjq.png
+    - assets/page-1/images/starpurple500-7-BxK.png
+    - assets/page-1/images/starpurple500-7-mZ9.png
+    - assets/page-1/images/addcircle-1-suZ.png
+    - assets/page-1/images/group-29779-yJw.png
+    - assets/page-1/images/starborder-1-3xB.png
+    - assets/page-1/images/group-29779-Bd1.png
+    - assets/page-1/images/starpurple500-1-hdR.png
+    - assets/page-1/images/ellipse-800-8WK.png
+    - assets/page-1/images/starborder-1-Dvw.png
+    - assets/page-1/images/addcircle-1-PeP.png
+    - assets/page-1/images/ellipse-800-z2K.png
+    - assets/page-1/images/group-29779-69D.png
+    - assets/page-1/images/group-29779-NCP.png
+    - assets/page-1/images/addcircle-1-PYj.png
+    - assets/page-1/images/starpurple500-5-uZ1.png
+    - assets/page-1/images/starpurple500-5-NJ3.png
+    - assets/page-1/images/starpurple500-1-7mR.png
+    - assets/page-1/images/starborder-1-UXR.png
+    - assets/page-1/images/starpurple500-6-obD.png
+    - assets/page-1/images/starpurple500-7-JTR.png
+    - assets/page-1/images/starpurple500-7-bpK.png
+    - assets/page-1/images/ellipse-800-UsR.png
+    - assets/page-1/images/starpurple500-5-Jhu.png
+    - assets/page-1/images/auto-group-sltr.png
+    - assets/page-1/images/group-29779-gCP.png
+    - assets/page-1/images/starpurple500-6-F8B.png
+    - assets/page-1/images/starborder-1-b91.png
+    - assets/page-1/images/starpurple500-1-snP.png
+    - assets/page-1/images/addcircle-1-8zb.png
+    - assets/page-1/images/starpurple500-1-Nij.png
+    - assets/page-1/images/addcircle-1-LUf.png
+    - assets/page-1/images/starpurple500-6-ECX.png
+    - assets/page-1/images/starpurple500-5-Ttj.png
+    - assets/page-1/images/arrowbackios-4-ZCB.png
+    - assets/page-1/images/group-29779-qkK.png
+    - assets/page-1/images/group-29779-xQP.png
+    - assets/page-1/images/addcircle-1-wfd.png
+    - assets/page-1/images/starpurple500-1-2yu.png
+    - assets/page-1/images/starpurple500-6-PU3.png
+    - assets/page-1/images/group-29779-d43.png
+    - assets/page-1/images/group-29779-t15.png
+    - assets/page-1/images/starpurple500-7-rXZ.png
+    - assets/page-1/images/ellipse-800-U5d.png
+    - assets/page-1/images/ellipse-800-J9V.png
+    - assets/page-1/images/starpurple500-5-Tqy.png
+    - assets/page-1/images/starpurple500-7-d59.png
+    - assets/page-1/images/auto-group-v7fm.png
+    - assets/page-1/images/starpurple500-6-XCb.png
+    - assets/page-1/images/starpurple500-6-MR1.png
+    - assets/page-1/images/starpurple500-5-wKm.png
+    - assets/page-1/images/starpurple500-5-EM5.png
+    - assets/page-1/images/starpurple500-6-oC3.png
+    - assets/page-1/images/group-29779-jRZ.png
+    - assets/page-1/images/starborder-1-wgK.png
+    - assets/page-1/images/starborder-1-yi7.png
+    - assets/page-1/images/starpurple500-1-Ryy.png
+    - assets/page-1/images/group-29779-Fwd.png
+    - assets/page-1/images/starpurple500-5-6oh.png
+    - assets/page-1/images/starpurple500-1-Nzj.png
+    - assets/page-1/images/starpurple500-7-t2b.png
+    - assets/page-1/images/starborder-1-xLX.png
+    - assets/page-1/images/starborder-1-bUb.png
+    - assets/page-1/images/ellipse-800-zZu.png
+    - assets/page-1/images/starpurple500-1-CbH.png
+    - assets/page-1/images/starpurple500-7-M9H.png
+    - assets/page-1/images/unsplash-4mrqv9gcuhq.png
+    - assets/page-1/images/starpurple500-1-3aP.png
+    - assets/page-1/images/starpurple500-1-9RZ.png
+    - assets/page-1/images/group-29779-kB9.png
+    - assets/page-1/images/addcircle-1-X3V.png
+    - assets/page-1/images/starpurple500-6-qts.png
+    - assets/page-1/images/starpurple500-5-A8P.png
+    - assets/page-1/images/ellipse-800-x1d.png
+    - assets/page-1/images/starborder-1-LXh.png
+    - assets/page-1/images/addcircle-1-hef.png
+    - assets/page-1/images/starpurple500-7-Bsu.png
+    - assets/page-1/images/starpurple500-5-BV9.png
+    - assets/page-1/images/starborder-1-pA3.png
+    - assets/page-1/images/group-29779-add.png
+    - assets/page-1/images/addcircle-1-s3d.png
+    - assets/page-1/images/starpurple500-6-MiF.png
+    - assets/page-1/images/starborder-1-3PM.png
+    - assets/page-1/images/addcircle-1-JCo.png
+    - assets/page-1/images/starpurple500-6-QTq.png
+    - assets/page-1/images/ellipse-800-PGT.png
+    - assets/page-1/images/starpurple500-5-pSs.png
+    - assets/page-1/images/unsplash-4mrqv9gcuhq-GPq.png
+    - assets/page-1/images/ellipse-800-x5V.png
+    - assets/page-1/images/starpurple500-6-jAF.png
+    - assets/page-1/images/ellipse-800-fXd.png
+    - assets/page-1/images/starpurple500-5-SbZ.png
+    - assets/page-1/images/ellipse-800-jHh.png
+    - assets/page-1/images/starpurple500-6-WKh.png
+    - assets/page-1/images/starpurple500-6-c71.png
+    - assets/page-1/images/ellipse-800-6nB.png
+    - assets/page-1/images/ellipse-800-Jes.png
+    - assets/page-1/images/status-bar-iphone-x-or-newer-TPm.png
+    - assets/page-1/images/arrowbackios-4-Fc3.png
+    - assets/page-1/images/starborder-1-2ud.png
+    - assets/page-1/images/ellipse-800-fh1.png
+    - assets/page-1/images/addcircle-1-UDD.png
+    - assets/page-1/images/status-bar-iphone-x-or-newer-Tqh.png
+    - assets/page-1/images/addcircle-1-AtX.png
+    - assets/page-1/images/rectangle-21-MvP.png
+    - assets/page-1/images/starpurple500-1-DxK.png
+    - assets/page-1/images/rectangle-21-kjH.png
+    - assets/page-1/images/starpurple500-1-nvs.png
+    - assets/page-1/images/group-29779-XtT.png
+    - assets/page-1/images/starpurple500-1-CDu.png
+    - assets/page-1/images/group-29779-QtF.png
+    - assets/page-1/images/addcircle-1-zPq.png
+    - assets/page-1/images/morevert-1.png
+    - assets/page-1/images/starpurple500-7-hGB.png
+    - assets/page-1/images/starpurple500-5-QwH.png
+    - assets/page-1/images/starpurple500-5-NNK.png
+    - assets/page-1/images/starborder-1-sbD.png
+    - assets/page-1/images/status-bar-iphone-x-or-newer-CtP.png
+    - assets/page-1/images/ellipse-800-ZU3.png
+    - assets/page-1/images/starpurple500-6-QB9.png
+    - assets/page-1/images/arrowbackios-4-r2T.png
+    - assets/page-1/images/flagofegypt-1.png
+    - assets/page-1/images/starborder-1-wTD.png
+    - assets/page-1/images/starpurple500-5-oEX.png
+    - assets/page-1/images/starpurple500-1-H75.png
+    - assets/page-1/images/starpurple500-6-qzP.png
+    - assets/page-1/images/starpurple500-5-AwR.png
+    - assets/page-1/images/group-29779-DoD.png
+    - assets/page-1/images/starpurple500-7-UNK.png
+    - assets/page-1/images/group-29779-zbZ.png
+    - assets/page-1/images/flagofegypt-1-Bom.png
+    - assets/page-1/images/starpurple500-7-K9H.png
+    - assets/page-1/images/starborder-1-ptf.png
+    - assets/page-1/images/starpurple500-1-xV5.png
+    - assets/page-1/images/starpurple500-7-Vzo.png
+    - assets/page-1/images/ellipse-800-mqq.png
+    - assets/page-1/images/starpurple500-1-K6f.png
+    - assets/page-1/images/starborder-1-F83.png
+    - assets/page-1/images/starpurple500-7-7g3.png
+    - assets/page-1/images/starpurple500-6-TbD.png
+    - assets/page-1/images/group-29779-K35.png
+    - assets/page-1/images/starpurple500-7-xXH.png
+    - assets/page-1/images/starpurple500-7-bR9.png
+    - assets/page-1/images/starborder-1-qjV.png
+    - assets/page-1/images/starborder-1-yVZ.png
+    - assets/page-1/images/group-29779-kET.png
+    - assets/page-1/images/starborder-1-Kvo.png
+    - assets/page-1/images/starborder-1-Qib.png
+    - assets/page-1/images/addcircle-1-oQb.png
+    - assets/page-1/images/starpurple500-6-pBq.png
+    - assets/page-1/images/group-29779-PQb.png
+    - assets/page-1/images/ellipse-800-4hD.png
+    - assets/page-1/images/starborder-1-3dR.png
+    - assets/page-1/images/starpurple500-6-trs.png
+    - assets/page-1/images/ellipse-800-RNo.png
+    - assets/page-1/images/starpurple500-6-vn3.png
+    - assets/page-1/images/starpurple500-7-Xyy.png
+    - assets/page-1/images/starpurple500-5-BiP.png
+    - assets/page-1/images/starpurple500-7-6jR.png
+    - assets/page-1/images/ellipse-800-DsD.png
+    - assets/page-1/images/starpurple500-6-kFH.png
+    - assets/page-1/images/addcircle-1-Bdy.png
+    - assets/page-1/images/addcircle-1-1eo.png
+    - assets/page-1/images/ico-24-ui-settings.png
+    - assets/page-1/images/starpurple500-7-XoM.png
+    - assets/page-1/images/addcircle-1-hkj.png
+    - assets/page-1/images/starpurple500-1-CDu-AgX.png
+    - assets/page-1/images/ico-24-actions-history.png
+    - assets/page-1/images/ico-24-ui-edit.png
+    - assets/page-1/images/rectangle-967.png
+    - assets/page-1/images/starpurple500-1-Muh.png
+    - assets/page-1/images/group-29511.png
+    - assets/page-1/images/group-29779-7WF.png
+    - assets/page-1/images/starpurple500-1-vkF.png
+    - assets/page-1/images/keyboardarrowdown-1-qvP.png
+    - assets/page-1/images/starpurple500-5-u4K.png
+    - assets/page-1/images/rectangle-21-KmZ.png
+    - assets/page-1/images/starborder-1-MDh.png
+    - assets/page-1/images/rssfeed-1.png
+    - assets/page-1/images/addcircle-1-AAK.png
+    - assets/page-1/images/starpurple500-7-5Wo.png
+    - assets/page-1/images/ellipse-800-Vn7.png
+    - assets/page-1/images/starpurple500-5-aAb.png
+    - assets/page-1/images/starpurple500-1-1vf.png
+    - assets/page-1/images/ico-24-actions-help.png
+    - assets/page-1/images/starborder-1-JeB.png
+    - assets/page-1/images/group-29779-riB.png
+    - assets/page-1/images/unsplash-4mrqv9gcuhq-M2X.png
+    - assets/page-1/images/starpurple500-7-DTu.png
+    - assets/page-1/images/addcircle-1-ZXm.png
+    - assets/page-1/images/auto-group-htxp.png
+    - assets/page-1/images/calendartoday-1.png
+    - assets/page-1/images/addcircle-1-jbm.png
+    - assets/page-1/images/home-HNP.png
+    - assets/page-1/images/rectangle-967-qPu.png
+    - assets/page-1/images/addcircle-1-znb.png
+    - assets/page-1/images/shape.png
+    - assets/page-1/images/rectangle-1010-bg-XiX.png
+    - assets/page-1/images/addcircle-1-28P.png
+    - assets/page-1/images/starpurple500-5-eJb.png
+    - assets/page-1/images/arrowbackios-4-ZF5.png
+    - assets/page-1/images/qr-code.png
+    - assets/page-1/images/ico-24-user-groupadd.png
+    - assets/page-1/images/rectangle-967-ioH.png
+    - assets/page-1/images/addcircle-1-ygB.png
+    - assets/page-1/images/starpurple500-6-kV5.png
+    - assets/page-1/images/group-29779-h9R.png
+    - assets/page-1/images/starpurple500-5-rHD.png
+    - assets/page-1/images/starpurple500-1-nwZ.png
+    - assets/page-1/images/addcircle-1-fL3.png
+    - assets/page-1/images/ellipse-800-cm5.png
+    - assets/page-1/images/auto-group-evq1.png
+    - assets/page-1/images/group-29779-Rh1.png
+    - assets/page-1/images/starpurple500-7-APh.png
+    - assets/page-1/images/starpurple500-5-us5.png
+    - assets/page-1/images/ellipse-800-U9V.png
+    - assets/page-1/images/wallet.png
+    - assets/page-1/images/group-16.png
+    - assets/page-1/images/arrowbackios-4-ULw.png
+    - assets/page-1/images/icon-content-clear24px.png
+    - assets/page-1/images/shape-cLX.png
+    - assets/page-1/images/status-bar-iphone-x-or-newer-ECP.png
+    - assets/page-1/images/shape-itF.png
+    - assets/page-1/images/group-14.png
+    - assets/page-1/images/rectangle-21-fHh.png
+    - assets/page-1/images/vector-21.png
+    - assets/page-1/images/vector-22.png
+    - assets/page-1/images/frame-29931.png
+    - assets/page-1/images/-3sd.png
+    - assets/page-1/images/addcircle-1-VDq.png
+    - assets/page-1/images/ico-24-user-userbig.png
+    - assets/page-1/images/auto-group-nfdq.png
+    - assets/page-1/images/rectangle-21-EM5.png
+    - assets/page-1/images/rectangle-967-y3m.png
+    - assets/page-1/images/flagofegypt-3.png
+    - assets/page-1/images/auto-group-vdpb.png
+    - assets/page-1/images/-asR.png
+    - assets/page-1/images/status-bar-iphone-x-or-newer-Acf.png
+    - assets/page-1/images/shape-7no.png
+    - assets/page-1/images/addcircle-1-4Lf.png
+    - assets/page-1/images/frame-29931-aB9.png
+    - assets/page-1/images/clipped.png
+    - assets/page-1/images/group-7.png
+    - assets/page-1/images/auto-group-abzf.png
+    - assets/page-1/images/status-bar.png
+    - assets/page-1/images/vector.png
+    - assets/page-1/images/image-18-Rks.png
+    - assets/page-1/images/rectangle-bg.png
+    - assets/page-1/images/status-bar-8dM.png
+    - assets/page-1/images/arrowbackios-4-bom.png
+    - assets/page-1/images/icon-content-clear24px-7VZ.png
+    - assets/page-1/images/status-bar-iphone-x-or-newer-QQP.png
+    - assets/page-1/images/auto-group-4frx.png
+    - assets/page-1/images/rectangle-21-Ehu.png
+    - assets/page-1/images/rectangle-1010-bg-UAB.png
+    - assets/page-1/images/rectangle-967-k71.png
+    - assets/page-1/images/cardbg-gray.png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
